@@ -1,10 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px;
-    line-height: 20px;
     font-size: large;
+    margin: 0;
+    padding: 1em;
 }
 
 a {
@@ -16,10 +14,30 @@ a {
     }
 }
 
-p {
-    padding-top: 30px;
+h1 {
+    margin-top: 0
 }
 
 .italic {
     font-style: italic;
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    border: none;
+    background-color: #78addf;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+        background-color: #5f8fb4;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px
 }
