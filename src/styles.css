@@ -60,10 +60,20 @@ nav {
     margin: 0px 10px 10px;
     padding: 10px;
     border: none;
-    background-color: #78addf;
+    background-color: #606970;
     border-radius: 10px;
     color: white;
     font-weight: 900;
-    text-shadow: -1px 0 0px black, 0 1px 0px black, 1px 0 0px black, 0 -1px 0px black;
+    text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
     cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+        transform: translateY(-2px);
+        transform: rotate(2deg);
+    }
+}
+
+a {
+    display: inline-block;
 }
