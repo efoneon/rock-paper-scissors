@@ -1,0 +1,76 @@
+body {
+    background-color: #8c8c8c;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+#weapon-choice-container {
+    margin-top: 100px;
+}
+
+#weapon-choice-container h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.weapon-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px 40px;
+    border: none;
+    background-color: #606970;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+    text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 20px;
+}
+
+.weapon-btn:hover {
+    transform: translateY(-2px);
+    transform: rotate(2deg);
+    background-color: #505860;
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    border: none;
+    background-color: #78addf;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+        background-color: #5f8fb4;
+    }
+}
+
+.container {
+    text-align: left;
+    padding: 15px;
+}
+
+#choices-container {
+    margin-top: 3em;
+    font-size: 30px;
+    background-color: black;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    color: #003c6c;
+    text-shadow: 0px 0px 10px;
+}
+
+.divider-line {
+    height: 5px;
+    background-color: black;
+    width: 20em;
+    display: inline-block;
+    margin-top: 5em;
+}
