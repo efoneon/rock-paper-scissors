@@ -3,14 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors</title>
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="/game/game.css">
 </head>
 <body>
-    <section class="weapon-choice">
-        <h2>Choose your weapon!</h2>
-        <button class="weapon-btn" id="rock">Rock</button>
-        <button class="weapon-btn" id="paper">Paper</button>
-        <button class="weapon-btn" id="scissors">Scissors</button>
+    <div class="container">
+        <a href="/src/index.html" style="text-decoration: none;">
+            <button class="back-btn">← Back</button>
+        </a>
+    </div>
+    <section id="weapon-choice-container">
+        <h1>Choose your weapon!</h1>
+        <button class="weapon-btn" id="rock"> 🪨 Rock</button>
+        <button class="weapon-btn" id="paper"> 📄 Paper</button>
+        <button class="weapon-btn" id="scissors"> ✂️ Scissors</button>
     </section>
+    <div class="divider-line"></div>
+    <section id="choices-result-container">
+        <div id="choices-container">
+            <h1>Your choice: <span id="user-choice"></span></h1>
+            <h1>Computer choice: <span id="com-choice"></span></h1>
+        </div>
+    </section>
+    <script src="/game/index.js"></script>
 </body>
 </html>
